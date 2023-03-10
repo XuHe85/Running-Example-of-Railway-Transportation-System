@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="acc_s2f_add_cross">
+        <attr name="priority">
+            <string>1</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n7">
+            <attr name="layout">
+                <string>1129 242 36 18</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>1220 176 17 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>1210 238 39 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>1153 271 19 19</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>1221 309 17 18</string>
+            </attr>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>552 858 30 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>409 856 44 18</string>
+            </attr>
+        </node>
+        <node id="n14">
+            <attr name="layout">
+                <string>270 872 51 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>319 254 144 108</string>
+            </attr>
+        </node>
+        <node id="n17">
+            <attr name="layout">
+                <string>571 323 44 18</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>233 418 19 19</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>206 339 19 19</string>
+            </attr>
+        </node>
+        <node id="n16">
+            <attr name="layout">
+                <string>206 269 19 19</string>
+            </attr>
+        </node>
+        <node id="n24">
+            <attr name="layout">
+                <string>819 867 44 18</string>
+            </attr>
+        </node>
+        <node id="n28">
+            <attr name="layout">
+                <string>744 937 11 18</string>
+            </attr>
+        </node>
+        <node id="n26">
+            <attr name="layout">
+                <string>658 891 30 18</string>
+            </attr>
+        </node>
+        <node id="n27">
+            <attr name="layout">
+                <string>915 930 44 18</string>
+            </attr>
+        </node>
+        <node id="n47">
+            <attr name="layout">
+                <string>547 791 51 18</string>
+            </attr>
+        </node>
+        <node id="n12">
+            <attr name="layout">
+                <string>664 791 28 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>447 793 28 18</string>
+            </attr>
+        </node>
+        <node id="n46">
+            <attr name="layout">
+                <string>344 794 28 18</string>
+            </attr>
+        </node>
+        <node id="n13">
+            <attr name="layout">
+                <string>755 791 28 18</string>
+            </attr>
+        </node>
+        <node id="n71">
+            <attr name="layout">
+                <string>464 1280 13 24</string>
+            </attr>
+        </node>
+        <node id="n101">
+            <attr name="layout">
+                <string>269 1199 18 18</string>
+            </attr>
+        </node>
+        <node id="n63">
+            <attr name="layout">
+                <string>340 1093 28 18</string>
+            </attr>
+        </node>
+        <node id="n82">
+            <attr name="layout">
+                <string>283 1299 44 18</string>
+            </attr>
+        </node>
+        <node id="n61">
+            <attr name="layout">
+                <string>446 1093 44 18</string>
+            </attr>
+        </node>
+        <node id="n80">
+            <attr name="layout">
+                <string>566 1093 28 18</string>
+            </attr>
+        </node>
+        <node id="n92">
+            <attr name="layout">
+                <string>365 1267 11 18</string>
+            </attr>
+        </node>
+        <node id="n78">
+            <attr name="layout">
+                <string>632 1094 28 18</string>
+            </attr>
+        </node>
+        <node id="n66">
+            <attr name="layout">
+                <string>589 1320 11 18</string>
+            </attr>
+        </node>
+        <node id="n57">
+            <attr name="layout">
+                <string>274 1092 28 18</string>
+            </attr>
+        </node>
+        <node id="n97">
+            <attr name="layout">
+                <string>431 1175 71 18</string>
+            </attr>
+        </node>
+        <node id="n83">
+            <attr name="layout">
+                <string>464 1223 13 24</string>
+            </attr>
+        </node>
+        <node id="n67">
+            <attr name="layout">
+                <string>532 1288 13 24</string>
+            </attr>
+        </node>
+        <node id="n91">
+            <attr name="layout">
+                <string>699 1094 28 18</string>
+            </attr>
+        </node>
+        <node id="n60">
+            <attr name="layout">
+                <string>770 1093 28 18</string>
+            </attr>
+        </node>
+        <node id="n30">
+            <attr name="layout">
+                <string>699 419 28 18</string>
+            </attr>
+        </node>
+        <node id="n22">
+            <attr name="layout">
+                <string>473 419 28 18</string>
+            </attr>
+        </node>
+        <node id="n18">
+            <attr name="layout">
+                <string>588 603 13 24</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>385 420 28 18</string>
+            </attr>
+        </node>
+        <node id="n25">
+            <attr name="layout">
+                <string>579 419 44 18</string>
+            </attr>
+        </node>
+        <node id="n31">
+            <attr name="layout">
+                <string>786 422 28 18</string>
+            </attr>
+        </node>
+        <node id="n29">
+            <attr name="layout">
+                <string>392 499 18 18</string>
+            </attr>
+        </node>
+        <node id="n15">
+            <attr name="layout">
+                <string>462 563 11 18</string>
+            </attr>
+        </node>
+        <node id="n23">
+            <attr name="layout">
+                <string>567 492 71 18</string>
+            </attr>
+        </node>
+        <node id="n19">
+            <attr name="layout">
+                <string>588 543 13 24</string>
+            </attr>
+        </node>
+        <node id="n21">
+            <attr name="layout">
+                <string>869 423 28 18</string>
+            </attr>
+        </node>
+        <node id="n20">
+            <attr name="layout">
+                <string>940 422 28 18</string>
+            </attr>
+        </node>
+        <node id="n32">
+            <attr name="layout">
+                <string>829 791 28 18</string>
+            </attr>
+        </node>
+        <node id="n33">
+            <attr name="layout">
+                <string>923 790 28 18</string>
+            </attr>
+        </node>
+        <node id="n35">
+            <attr name="layout">
+                <string>548 915 44 18</string>
+            </attr>
+        </node>
+        <node id="n34">
+            <attr name="layout">
+                <string>550 974 44 18</string>
+            </attr>
+        </node>
+        <node id="n36">
+            <attr name="layout">
+                <string>412 938 71 18</string>
+            </attr>
+        </node>
+        <node id="n37">
+            <attr name="layout">
+                <string>637 707 71 36</string>
+            </attr>
+        </node>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>type:depth</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n4">
+            <attr name="label">
+                <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n10">
+            <attr name="label">
+                <string>del:at</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n6">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n10">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n4">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+            <attr name="layout">
+                <string>507 -4 1229 247 1229 318 11</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>type:track</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n24">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n2">
+            <attr name="label">
+                <string>not:to</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n47">
+            <attr name="label">
+                <string>new:to</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n14">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n14" to="n14">
+            <attr name="label">
+                <string>type:crossing</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:target_train</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>not:flag:crash</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>not:flag:emergency</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n11">
+            <attr name="label">
+                <string>del:current_speed</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n25">
+            <attr name="label">
+                <string>del:on</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n17">
+            <attr name="label">
+                <string>new:on</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n8">
+            <attr name="label">
+                <string>not:current_speed</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n16">
+            <attr name="label">
+                <string>new:current_speed</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n17">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>string:"stop"</string>
+            </attr>
+        </edge>
+        <edge from="n11" to="n11">
+            <attr name="label">
+                <string>string:"slow"</string>
+            </attr>
+        </edge>
+        <edge from="n16" to="n16">
+            <attr name="label">
+                <string>string:"fast"</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n24">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n26">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n28">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n27">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n28">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n26" to="n26">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n26" to="n26">
+            <attr name="label">
+                <string>type:track</string>
+            </attr>
+        </edge>
+        <edge from="n26" to="n28">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n27" to="n27">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n27" to="n27">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n27" to="n28">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n47">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n47">
+            <attr name="label">
+                <string>type:crossing</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n5">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n12" to="n12">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n12" to="n12">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n12" to="n47">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n46">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n46" to="n46">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n46" to="n46">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n12">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n71" to="n71">
+            <attr name="label">
+                <string>existsx:</string>
+            </attr>
+        </edge>
+        <edge from="n71" to="n67">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n101" to="n101">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n101" to="n101">
+            <attr name="label">
+                <string>type:car</string>
+            </attr>
+        </edge>
+        <edge from="n101" to="n92">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n63" to="n63">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n63" to="n63">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n63" to="n57">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n63" to="n71">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n82" to="n82">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n82" to="n82">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n82" to="n61">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n82" to="n66">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n61" to="n61">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n61" to="n61">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n61" to="n66">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n61" to="n63">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n80" to="n80">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n80" to="n80">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n80" to="n61">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n80" to="n71">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n92" to="n92">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n92" to="n71">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+            <attr name="layout">
+                <string>425 -1 370 1276 470 1292 11</string>
+            </attr>
+        </edge>
+        <edge from="n78" to="n78">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n78" to="n78">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n78" to="n80">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n78" to="n71">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n66" to="n66">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n57" to="n57">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n57" to="n57">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n57" to="n71">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n97" to="n97">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n97" to="n97">
+            <attr name="label">
+                <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n97" to="n61">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n97" to="n83">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n83" to="n83">
+            <attr name="label">
+                <string>existsx:</string>
+            </attr>
+        </edge>
+        <edge from="n83" to="n67">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n67" to="n67">
+            <attr name="label">
+                <string>existsx:</string>
+            </attr>
+        </edge>
+        <edge from="n67" to="n66">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n91" to="n91">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n91" to="n91">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n91" to="n71">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n91" to="n78">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n60" to="n60">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n60" to="n60">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n60" to="n91">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n60" to="n71">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n30">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n30">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n18">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n25">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n22">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n22">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n18">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n0">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n18">
+            <attr name="label">
+                <string>existsx:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n18">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n25">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n25">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n17">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n22">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n31">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n31">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n18">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n30">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n29">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n29">
+            <attr name="label">
+                <string>type:car</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n15">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n15">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n18">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n23" to="n23">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n23" to="n23">
+            <attr name="label">
+                <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n23" to="n25">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n23" to="n19">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n19" to="n19">
+            <attr name="label">
+                <string>existsx:</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n21">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n21">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n31">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n18">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n20">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n20">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n21">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n18">
+            <attr name="label">
+                <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n32" to="n32">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n32" to="n32">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n32" to="n13">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n33">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n33">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n32">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n35">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n9">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n34" to="n34">
+            <attr name="label">
+                <string>type:railway</string>
+            </attr>
+        </edge>
+        <edge from="n34" to="n35">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n36" to="n36">
+            <attr name="label">
+                <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n36" to="n34">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n37" to="n37">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n37" to="n37">
+            <attr name="label">
+                <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n37" to="n37">
+            <attr name="label">
+                <string>flag:red</string>
+            </attr>
+        </edge>
+        <edge from="n37" to="n47">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
