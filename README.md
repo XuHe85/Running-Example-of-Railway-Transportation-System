@@ -63,3 +63,10 @@ This rule also move the `target_train` node from current node to the succesive n
 
 ![Add_New_Junction](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_new_junction.png "Add_New_Junction")
 
+### Rules Add_Two_Tracks
+
+These rules will attach two new tracks to the `junction` node, which create a branch of the railway.
+
+![Rules Add_Two_Tracks](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_two_tracks.png "Add_Two_Tracks")
+
+
