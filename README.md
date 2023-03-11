@@ -77,7 +77,7 @@ Before add a new `crossing` to the graph, the far end `traffic_light` should be 
 
 ### Rules Add_Crossing
 
-In the graph, several transtions after the application of [Add_Traffic_Light](#rule-add_traffic_light), a `crossing` node with `traffic_light` must be created. They will be a completed pattern of crossing and traffic signal system.
+In the graph, several transtions after the application of [Add_Traffic_Light](#rule-add_traffic_light), a `crossing` node with `traffic_light` and `road` nodes must be created. They will be a completed pattern of crossing and traffic signal system.
 
 ![Add_Cross](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_cross.png "Add_Cross")
 
