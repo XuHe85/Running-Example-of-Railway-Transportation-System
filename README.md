@@ -147,3 +147,6 @@ If the `target_train` passes the `crossing` node and nothing happens(no collisio
 
 ## Initial Graph
 
+The initial graph of the reversed model depict a train crashed with a car on the `crossing` node.
+
+![Reversed Initial Graph](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/start_graph_reversed.png "Reversed Initial Graph")
