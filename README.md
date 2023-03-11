@@ -101,4 +101,14 @@ When `target_train` approaches the far end `traffic_light`, they will try to est
 
 ![Rule connection_failed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_failed.png "Rule connection_failed")
 
+When the connection succeed, the `target_train` will not only follow the instruction of the traffic light, but also reveive the early warning signal when there is an on coming incursion on the `crossing` node. In contrast to that, the absence of the connection will lead the `target_train` only follow the traffic light.
+
+### Rule Switch_Traffic_Light and Emergency_Alarm
+
+When there is an on coming incursion to the crossing, following rules will be applied.
+
+![Rule switch_traffic_light](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/switch_traffic_light.png "Rule switch_traffic_light")
+
+![Rule emergency_alarm](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_alarm.png "Rule emergency_alarm")
+
 
