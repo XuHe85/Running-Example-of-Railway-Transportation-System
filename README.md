@@ -117,7 +117,7 @@ If there is connection between `target_train` and `traffic_light`, the `emergenc
 
 ### Rule Red_Light_Emergency
 
-When the `target_train` passes the `railway` with a red `traffic_light`,
+When the `target_train` passes the `railway` with a red `traffic_light`, the `target_train` will obtain an `emergency` flag, when it doesn't exist.
 
 ![Rule red_light_emergency](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/red_light_emergency.png "Rule red_light_emergency")
 
