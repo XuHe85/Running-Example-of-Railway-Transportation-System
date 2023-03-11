@@ -25,7 +25,7 @@ The initial graph of the original model depict a train running on the railway th
 
 In our model, several rules can add new tracks to the current graphs. The main parts of these rules are the same. The differences appears at the behaviors of the `target_train`.
 
-Here we firstly introduce the common part of this rule cluster, then show their differences.
+Here we introduce the common part of this rule cluster. The differences only appear on the `car` node, which respect to `accelerate`, `cruise`, and `brake`.
 
 These figures of the rule accomplish:
 - moving the `target_train` from one `railway` node to the next one. At the same time, it delete the former `railway` node and all other nodes that potentially attached to it. 
