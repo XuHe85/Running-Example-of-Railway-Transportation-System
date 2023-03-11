@@ -40,7 +40,7 @@ These figures of the rule accomplish:
 
 ![Add New Track 3](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_new_track_3.png "Add New Track 3")
 
--moving the `car` node from one `road` to the next `road` node.
+- moving the `car` node from one `road` to the next `road` node.
 
 ![Add New Track 4](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_new_track_4.png "Add New Track 4")
 
@@ -55,4 +55,8 @@ These figures of the rule accomplish:
 Following figure depicts a checking depth counter. It is shown in almost every rule to count the checking depth.
 
 ![Counter](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/counter_for_all_rule.png "Counter")
+
+### Rules  Add_New_Junction
+
+![Add_New_Junction](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_new_junction.png "Add_New_Junction")
 
