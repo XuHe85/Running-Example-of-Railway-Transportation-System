@@ -65,8 +65,22 @@ This rule also move the `target_train` node from current node to the succesive n
 
 ### Rules Add_Two_Tracks
 
-These rules will attach two new tracks to the `junction` node, which create a branch of the railway.
+These rules will attach two new tracks to the `junction` node, if there doesn't exist two tracks that merged here. This will create a branch of the railway.
 
 ![Rules Add_Two_Tracks](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_two_tracks.png "Add_Two_Tracks")
+
+### Rule Add_Traffic_Light
+
+Before add a new `crossing` to the graph, the far end `traffic_light` should be created at first. This rule glues `traffic_light` to every `railway` nodes that don't have a succesive `railway` node on every branch of the railway.
+
+![Rules Add_Traffic_Light](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_traffic_light.png "Add_Traffic_Light")
+
+### Rules Add_Crossing
+
+In the graph, several transtions after the application of [Add_Traffic_Light](#rule-add_traffic_light), a `crossing` node with `traffic_light` must be created. They will be a completed pattern of crossing and traffic signal system.
+
+![Add_Cross](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_cross.png "Add_Cross")
+
+
 
 
