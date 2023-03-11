@@ -109,6 +109,12 @@ When there is an on coming incursion to the crossing, following rules will be ap
 
 ![Rule switch_traffic_light](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/switch_traffic_light.png "Rule switch_traffic_light")
 
+When the far end `traffic_light` has not been deleted, this rule will switch the `traffic_light` for the train from `green` to `red` by replace the flags.
+
 ![Rule emergency_alarm](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_alarm.png "Rule emergency_alarm")
+
+If there is connection between `target_train` and `traffic_light`, the `emergency` flag will be created on both nodes.
+
+### Rule
 
 
