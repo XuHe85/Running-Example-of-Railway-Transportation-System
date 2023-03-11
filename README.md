@@ -115,6 +115,11 @@ When the far end `traffic_light` has not been deleted, this rule will switch the
 
 If there is connection between `target_train` and `traffic_light`, the `emergency` flag will be created on both nodes.
 
-### Rule
+### Rule Red_Light_Emergency
+
+When the `target_train` passes the `railway` with a red `traffic_light`,
+
+![Rule red_light_emergency](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/red_light_emergency.png "Rule red_light_emergency")
+
 
 
