@@ -81,6 +81,17 @@ In the graph, several transtions after the application of [Add_Traffic_Light](#r
 
 ![Add_Cross](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_cross.png "Add_Cross")
 
+### Rules Add_Car
+
+After `road` nodes with `crossing` added to the graph by [Rules Add_Crossing](#rules-add_crossing), `car` nodes with different conditions can be created on the `road` node.
+
+Following rules add moving `car`, stopped `car`, and car that with `emergency_vehicle` flag to the graph respectively.
+
+![Rule Add_Car_Moving](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_moving.png "Rule Add_Car_Moving")
+
+![Rule Add_Car_Stopped](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_stopped.png "Rule Add_Car_Stopped")
+
+![Rule Add_Car_Moving_Emergency](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_moving_emergency.png "Rule Add_Car_Moving_Emergency")
 
 
 
