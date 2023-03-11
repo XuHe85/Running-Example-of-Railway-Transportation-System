@@ -93,5 +93,12 @@ Following rules add moving `car`, stopped `car`, and car that with `emergency_ve
 
 ![Rule Add_Car_Moving_Emergency](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_moving_emergency.png "Rule Add_Car_Moving_Emergency")
 
+### Rules Connection
+
+When `target_train` approaches the far end `traffic_light`, they will try to establish the connection. If they connected with each other, all of them will obtain a flag `connected`. If the connection failed, flag `unconnected` will be created.
+
+![Rule connection_succeed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_succeed.png "Rule connection_succeed")
+
+![Rule connection_failed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_failed.png "Rule connection_failed")
 
 
