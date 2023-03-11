@@ -58,5 +58,8 @@ Following figure depicts a checking depth counter. It is shown in almost every r
 
 ### Rules  Add_New_Junction
 
+In this cluster of rules, compare with the `Add_New_Track` rules, the main difference is on the type of new node that create by the rule.
+This rule also move the `target_train` node from current node to the succesive node. However, it will create a new `junction` node ahead. If there already exists another railway branch, then two branches will joint on this `junction` node.
+
 ![Add_New_Junction](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_new_junction.png "Add_New_Junction")
 
