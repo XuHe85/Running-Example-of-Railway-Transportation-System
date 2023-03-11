@@ -127,6 +127,10 @@ There are two emergency brake rules in the system. Whenever the `target_train` o
 
 ![Rule emergency_brk_f2s](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_brk_f2s.png "Rule emergency_brk_f2s")
 
-![Rule emergency_brk_s2s](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_brk_s2s.png "Rule emergency_brk_s2s")
+### Rule Crash
+
+When the `target_train` arrives at the `crossing` with the `car` at the same time, the rule `crash` will be applied. This rule has the highest priority
+
+![Rule crash](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash.png "Rule crash")
 
 
