@@ -129,8 +129,17 @@ There are two emergency brake rules in the system. Whenever the `target_train` o
 
 ### Rule Crash
 
-When the `target_train` arrives at the `crossing` with the `car` at the same time, the rule `crash` will be applied. This rule has the highest priority
+When the `target_train` arrives at the `crossing` with the `car` at the same time, the rule `crash` will be applied. This rule will give both `car` and `target_train` the flag `crash`, set the speed to `stop`, and the `crossing` node will get a flag of `accident`. As the rule has the highest priority, the simulation will stop here.
 
 ![Rule crash](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash.png "Rule crash")
+
+### Rules Connection_Reset
+
+If the `target_train` passes the `crossing` node and nothing happens(no collision), along with the deletion of both `crossing` and `traffic_light` nodes, the train will wipe its connection flag.
+
+![Rule connection_reset_connected](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_reset_connected.png "Rule connection_reset_connected")
+
+![Rule connection_reset_unconnected](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_reset_unconnected.png "Rule connection_reset_unconnected")
+
 
 
