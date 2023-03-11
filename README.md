@@ -143,7 +143,7 @@ If the `target_train` passes the `crossing` node and nothing happens(no collisio
 
 ![Rule connection_reset_unconnected](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_reset_unconnected.png "Rule connection_reset_unconnected")
 
-## Reversed Graph
+# Reversed Graph
 
-
+## Initial Graph
 
