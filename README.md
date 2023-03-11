@@ -121,5 +121,12 @@ When the `target_train` passes the `railway` with a red `traffic_light`, the `ta
 
 ![Rule red_light_emergency](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/red_light_emergency.png "Rule red_light_emergency")
 
+### Rules Emergency_Brake
+
+There are two emergency brake rules in the system. Whenever the `target_train` owns a `emergency` flag, these two high priority rules will be applied accordingly. The rule `emergency_brk_f2s` will brake the train from fast to slow, and the rule `emergency_brk_s2s` will stop the train from speed of slow.
+
+![Rule emergency_brk_f2s](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_brk_f2s.png "Rule emergency_brk_f2s")
+
+![Rule emergency_brk_s2s](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_brk_s2s.png "Rule emergency_brk_s2s")
 
 
