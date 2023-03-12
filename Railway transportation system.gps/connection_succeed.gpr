@@ -19,7 +19,7 @@
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>819 389 25 24</string>
+                <string>796 391 25 24</string>
             </attr>
         </node>
         <node id="n1">
@@ -34,12 +34,12 @@
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>1069 413 19 19</string>
+                <string>1059 413 39 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>1141 416 7 18</string>
+                <string>1135 415 19 19</string>
             </attr>
         </node>
         <node id="n4">
@@ -54,7 +54,7 @@
         </node>
         <node id="n9">
             <attr name="layout">
-                <string>643 243 51 18</string>
+                <string>645 432 51 18</string>
             </attr>
         </node>
         <edge from="n6" to="n6">
@@ -137,17 +137,17 @@
                 <string>prod:</string>
             </attr>
         </edge>
+        <edge from="n7" to="n3">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
         <edge from="n7" to="n4">
             <attr name="label">
                 <string>int:add</string>
             </attr>
             <attr name="layout">
                 <string>507 -4 1078 422 1078 492 11</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n3">
-            <attr name="label">
-                <string>arg:0</string>
             </attr>
         </edge>
         <edge from="n7" to="n2">

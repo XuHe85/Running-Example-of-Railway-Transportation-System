@@ -264,12 +264,12 @@
         </node>
         <node id="n26">
             <attr name="layout">
-                <string>397 794 71 18</string>
+                <string>415 771 71 18</string>
             </attr>
         </node>
         <node id="n27">
             <attr name="layout">
-                <string>635 540 71 36</string>
+                <string>522 534 71 36</string>
             </attr>
         </node>
         <edge from="n7" to="n7">
@@ -277,14 +277,14 @@
                 <string>type:depth</string>
             </attr>
         </edge>
-        <edge from="n7" to="n10">
-            <attr name="label">
-                <string>del:at</string>
-            </attr>
-        </edge>
         <edge from="n7" to="n4">
             <attr name="label">
                 <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n10">
+            <attr name="label">
+                <string>del:at</string>
             </attr>
         </edge>
         <edge from="n10" to="n10">
@@ -305,14 +305,14 @@
                 <string>507 -4 988 205 988 275 11</string>
             </attr>
         </edge>
-        <edge from="n1" to="n6">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
         <edge from="n1" to="n10">
             <attr name="label">
                 <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n6">
+            <attr name="label">
+                <string>arg:1</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -425,14 +425,14 @@
                 <string>not:flag:emergency</string>
             </attr>
         </edge>
-        <edge from="n0" to="n22">
-            <attr name="label">
-                <string>del:on</string>
-            </attr>
-        </edge>
         <edge from="n0" to="n15">
             <attr name="label">
                 <string>new:on</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n22">
+            <attr name="label">
+                <string>del:on</string>
             </attr>
         </edge>
         <edge from="n0" to="n3">
@@ -460,14 +460,14 @@
                 <string>type:railway</string>
             </attr>
         </edge>
-        <edge from="n28" to="n29">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n28" to="n31">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n29">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n28" to="n30">
@@ -620,14 +620,14 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n60" to="n68">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n60" to="n54">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n60" to="n68">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n79" to="n79">
@@ -660,14 +660,14 @@
                 <string>type:railway</string>
             </attr>
         </edge>
-        <edge from="n58" to="n63">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n58" to="n60">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n58" to="n63">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n77" to="n77">
@@ -680,14 +680,14 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n77" to="n58">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
         <edge from="n77" to="n68">
             <attr name="label">
                 <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n77" to="n58">
+            <attr name="label">
+                <string>to</string>
             </attr>
         </edge>
         <edge from="n89" to="n89">
@@ -713,14 +713,14 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n75" to="n68">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n75" to="n77">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n75" to="n68">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n63" to="n63">
@@ -753,14 +753,14 @@
                 <string>type:traffic_light</string>
             </attr>
         </edge>
-        <edge from="n94" to="n58">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
         <edge from="n94" to="n80">
             <attr name="label">
                 <string>@</string>
+            </attr>
+        </edge>
+        <edge from="n94" to="n58">
+            <attr name="label">
+                <string>on</string>
             </attr>
         </edge>
         <edge from="n80" to="n80">
@@ -913,14 +913,14 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n25" to="n16">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n25" to="n24">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n16">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n23" to="n23">
@@ -1003,14 +1003,14 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n18" to="n16">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n18" to="n19">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n16">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n26" to="n26">

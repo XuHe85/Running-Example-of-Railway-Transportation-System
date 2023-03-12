@@ -6,12 +6,12 @@
         </attr>
         <node id="n7">
             <attr name="layout">
-                <string>812 222 36 18</string>
+                <string>980 246 36 18</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>973 218 7 18</string>
+                <string>967 217 19 19</string>
             </attr>
         </node>
         <node id="n9">
@@ -21,22 +21,22 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>311 195 44 18</string>
+                <string>465 172 44 18</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>903 218 19 19</string>
+                <string>1061 242 39 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>904 289 17 18</string>
+                <string>1072 313 17 18</string>
             </attr>
         </node>
         <node id="n10">
             <attr name="layout">
-                <string>903 156 17 18</string>
+                <string>1071 180 17 18</string>
             </attr>
         </node>
         <node id="n0">
@@ -46,7 +46,7 @@
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>302 351 71 18</string>
+                <string>521 127 71 18</string>
             </attr>
         </node>
         <node id="n23">
@@ -74,14 +74,14 @@
                 <string>type:depth</string>
             </attr>
         </edge>
-        <edge from="n7" to="n10">
-            <attr name="label">
-                <string>del:at</string>
-            </attr>
-        </edge>
         <edge from="n7" to="n4">
             <attr name="label">
                 <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n10">
+            <attr name="label">
+                <string>del:at</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -94,14 +94,14 @@
                 <string>type:railway</string>
             </attr>
         </edge>
-        <edge from="n9" to="n2">
-            <attr name="label">
-                <string>not:to</string>
-            </attr>
-        </edge>
         <edge from="n9" to="n23">
             <attr name="label">
                 <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n2">
+            <attr name="label">
+                <string>not:to</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -124,17 +124,17 @@
                 <string>arg:0</string>
             </attr>
         </edge>
+        <edge from="n1" to="n6">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
         <edge from="n1" to="n4">
             <attr name="label">
                 <string>int:add</string>
             </attr>
             <attr name="layout">
-                <string>525 33 912 227 912 298 11</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n6">
-            <attr name="label">
-                <string>arg:1</string>
+                <string>525 33 1080 251 1080 322 11</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">

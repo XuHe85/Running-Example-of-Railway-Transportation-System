@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="depth_control">
-        <attr name="enabled">
-            <string>false</string>
+        <attr name="$version">
+            <string>curly</string>
         </attr>
         <attr name="actionRole">
             <string>forbidden</string>
-        </attr>
-        <attr name="$version">
-            <string>curly</string>
         </attr>
         <node id="n4">
             <attr name="layout">
@@ -27,7 +24,7 @@
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>773 443 7 18</string>
+                <string>770 443 7 18</string>
             </attr>
         </node>
         <node id="n2">
@@ -77,7 +74,7 @@
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>int:10</string>
+                <string>int:11</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">

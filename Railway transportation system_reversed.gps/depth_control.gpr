@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="depth_control">
-        <attr name="enabled">
-            <string>false</string>
+        <attr name="$version">
+            <string>curly</string>
         </attr>
         <attr name="actionRole">
             <string>forbidden</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
+        <attr name="enabled">
+            <string>false</string>
         </attr>
         <node id="n4">
             <attr name="layout">
@@ -40,14 +40,14 @@
                 <string>671 620 23 18</string>
             </attr>
         </node>
-        <edge from="n4" to="n0">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
         <edge from="n4" to="n4">
             <attr name="label">
                 <string>type:depth</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n0">
+            <attr name="label">
+                <string>at</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
@@ -60,11 +60,6 @@
                 <string>prod:</string>
             </attr>
         </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>int:eq</string>
-            </attr>
-        </edge>
         <edge from="n1" to="n3">
             <attr name="label">
                 <string>arg:1</string>
@@ -75,9 +70,14 @@
                 <string>arg:0</string>
             </attr>
         </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>int:eq</string>
+            </attr>
+        </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>int:8</string>
+                <string>int:1</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">

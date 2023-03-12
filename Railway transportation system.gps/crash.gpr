@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="crash">
-        <attr name="priority">
-            <string>4</string>
-        </attr>
         <attr name="$version">
             <string>curly</string>
+        </attr>
+        <attr name="priority">
+            <string>4</string>
         </attr>
         <node id="n0">
             <attr name="layout">
@@ -14,52 +14,77 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>484 502 43 36</string>
+                <string>483 502 43 36</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>648 500 71 36</string>
+                <string>647 500 71 36</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>844 576 36 18</string>
+                <string>843 575 36 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>844 417 36 18</string>
+                <string>674 419 36 18</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>326 476 53 18</string>
+                <string>326 475 53 18</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>327 542 36 18</string>
+                <string>315 541 59 18</string>
             </attr>
         </node>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>new:flag:accident</string>
+        <node id="n10">
+            <attr name="layout">
+                <string>978 416 36 18</string>
             </attr>
-        </edge>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>1069 350 17 18</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>1069 412 19 19</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>1141 415 7 18</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>1070 483 17 18</string>
+            </attr>
+        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:crossing</string>
             </attr>
         </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:flag:accident</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:car</string>
+            </attr>
+        </edge>
         <edge from="n1" to="n1">
             <attr name="label">
                 <string>new:flag:crash</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n6">
-            <attr name="label">
-                <string>new:is</string>
             </attr>
         </edge>
         <edge from="n1" to="n5">
@@ -72,9 +97,14 @@
                 <string>on</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge from="n1" to="n6">
             <attr name="label">
-                <string>type:car</string>
+                <string>new:is</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:target_train</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -87,19 +117,14 @@
                 <string>new:current_speed</string>
             </attr>
         </edge>
-        <edge from="n2" to="n0">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
         <edge from="n2" to="n4">
             <attr name="label">
                 <string>del:current_speed</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge from="n2" to="n0">
             <attr name="label">
-                <string>type:target_train</string>
+                <string>on</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
@@ -120,6 +145,59 @@
         <edge from="n6" to="n6">
             <attr name="label">
                 <string>string:"stopped"</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>type:depth</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n9">
+            <attr name="label">
+                <string>del:at</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n11">
+            <attr name="label">
+                <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n11">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+            <attr name="layout">
+                <string>507 -4 1078 422 1078 492 11</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n8">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n9">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n11" to="n11">
+            <attr name="label">
+                <string>int:</string>
             </attr>
         </edge>
     </graph>

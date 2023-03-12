@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="emergency_alarm">
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
         <attr name="priority">
             <string>3</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n5">
             <attr name="layout">
-                <string>382 280 73 90</string>
+                <string>624 91 143 108</string>
             </attr>
         </node>
         <node id="n66">
             <attr name="layout">
-                <string>244 319 36 18</string>
+                <string>252 318 19 19</string>
             </attr>
         </node>
         <node id="n51">
@@ -29,12 +29,12 @@
         </node>
         <node id="n22">
             <attr name="layout">
-                <string>1069 412 19 19</string>
+                <string>1059 412 39 18</string>
             </attr>
         </node>
         <node id="n26">
             <attr name="layout">
-                <string>1156 399 7 18</string>
+                <string>1150 398 19 19</string>
             </attr>
         </node>
         <node id="n61">
@@ -54,7 +54,7 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>746 245 18 18</string>
+                <string>715 236 79 36</string>
             </attr>
         </node>
         <node id="n1">
@@ -64,7 +64,7 @@
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>843 251 53 18</string>
+                <string>860 250 19 19</string>
             </attr>
         </node>
         <edge from="n5" to="n5">

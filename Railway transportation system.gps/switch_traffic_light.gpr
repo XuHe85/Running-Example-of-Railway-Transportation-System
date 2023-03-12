@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="switch_traffic_light">
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
         <attr name="priority">
             <string>3</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
         </attr>
         <node id="n8">
             <attr name="layout">
@@ -24,17 +24,17 @@
         </node>
         <node id="n13">
             <attr name="layout">
-                <string>511 686 44 18</string>
+                <string>519 649 44 18</string>
             </attr>
         </node>
         <node id="n12">
             <attr name="layout">
-                <string>395 306 71 36</string>
+                <string>394 297 73 54</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>384 755 71 54</string>
+                <string>392 718 71 54</string>
             </attr>
         </node>
         <node id="n3">
@@ -49,7 +49,7 @@
         </node>
         <node id="n15">
             <attr name="layout">
-                <string>632 686 44 18</string>
+                <string>640 649 44 18</string>
             </attr>
         </node>
         <node id="n7">
@@ -59,12 +59,12 @@
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>708 743 71 54</string>
+                <string>716 706 71 54</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>709 312 18 18</string>
+                <string>678 303 79 36</string>
             </attr>
         </node>
         <node id="n0">
@@ -74,7 +74,7 @@
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>799 313 53 18</string>
+                <string>816 312 19 19</string>
             </attr>
         </node>
         <node id="n10">
@@ -89,12 +89,12 @@
         </node>
         <node id="n18">
             <attr name="layout">
-                <string>1069 413 19 19</string>
+                <string>1059 413 39 18</string>
             </attr>
         </node>
         <node id="n14">
             <attr name="layout">
-                <string>1141 416 7 18</string>
+                <string>1135 415 19 19</string>
             </attr>
         </node>
         <node id="n17">
@@ -132,14 +132,14 @@
                 <string>type:railway</string>
             </attr>
         </edge>
-        <edge from="n13" to="n15">
-            <attr name="label">
-                <string>!=</string>
-            </attr>
-        </edge>
         <edge from="n13" to="n9">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n15">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n12" to="n12">
@@ -187,14 +187,14 @@
                 <string>type:railway</string>
             </attr>
         </edge>
-        <edge from="n3" to="n7">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n3" to="n11">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n7">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -202,14 +202,14 @@
                 <string>type:railway</string>
             </attr>
         </edge>
-        <edge from="n2" to="n7">
-            <attr name="label">
-                <string>@</string>
-            </attr>
-        </edge>
         <edge from="n2" to="n3">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n7">
+            <attr name="label">
+                <string>@</string>
             </attr>
         </edge>
         <edge from="n15" to="n15">
@@ -292,14 +292,14 @@
                 <string>type:depth</string>
             </attr>
         </edge>
-        <edge from="n10" to="n16">
-            <attr name="label">
-                <string>del:at</string>
-            </attr>
-        </edge>
         <edge from="n10" to="n17">
             <attr name="label">
                 <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n16">
+            <attr name="label">
+                <string>del:at</string>
             </attr>
         </edge>
         <edge from="n16" to="n16">
@@ -310,6 +310,11 @@
         <edge from="n18" to="n18">
             <attr name="label">
                 <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n16">
+            <attr name="label">
+                <string>arg:0</string>
             </attr>
         </edge>
         <edge from="n18" to="n14">
@@ -323,11 +328,6 @@
             </attr>
             <attr name="layout">
                 <string>507 -4 1078 422 1078 492 11</string>
-            </attr>
-        </edge>
-        <edge from="n18" to="n16">
-            <attr name="label">
-                <string>arg:0</string>
             </attr>
         </edge>
         <edge from="n14" to="n14">
