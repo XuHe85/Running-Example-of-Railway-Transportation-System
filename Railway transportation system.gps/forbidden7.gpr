@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="forbidden7">
-        <attr name="$version">
-            <string>curly</string>
+        <attr name="enabled">
+            <string>false</string>
         </attr>
         <attr name="actionRole">
             <string>forbidden</string>
         </attr>
-        <attr name="enabled">
-            <string>false</string>
+        <attr name="$version">
+            <string>curly</string>
         </attr>
         <node id="n11">
             <attr name="layout">
@@ -120,11 +120,6 @@
                 <string>flag:connected</string>
             </attr>
         </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>type:traffic_light</string>
-            </attr>
-        </edge>
         <edge from="n9" to="n8">
             <attr name="label">
                 <string>on</string>
@@ -138,6 +133,11 @@
         <edge from="n9" to="n9">
             <attr name="label">
                 <string>flag:connected</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>type:traffic_light</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">
@@ -165,11 +165,6 @@
                 <string>to</string>
             </attr>
         </edge>
-        <edge from="n12" to="n18">
-            <attr name="label">
-                <string>is</string>
-            </attr>
-        </edge>
         <edge from="n12" to="n16">
             <attr name="label">
                 <string>on</string>
@@ -185,9 +180,9 @@
                 <string>flag:emergency_vehicle</string>
             </attr>
         </edge>
-        <edge from="n14" to="n4">
+        <edge from="n12" to="n18">
             <attr name="label">
-                <string>to</string>
+                <string>is</string>
             </attr>
         </edge>
         <edge from="n14" to="n14">
@@ -195,9 +190,9 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n13" to="n13">
+        <edge from="n14" to="n4">
             <attr name="label">
-                <string>type:road</string>
+                <string>to</string>
             </attr>
         </edge>
         <edge from="n13" to="n0">
@@ -205,9 +200,9 @@
                 <string>to</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n13" to="n13">
             <attr name="label">
-                <string>to</string>
+                <string>type:road</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
@@ -215,7 +210,7 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n16" to="n13">
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>to</string>
             </attr>
@@ -225,14 +220,19 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge from="n16" to="n13">
             <attr name="label">
-                <string>type:track</string>
+                <string>to</string>
             </attr>
         </edge>
         <edge from="n3" to="n8">
             <attr name="label">
                 <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:track</string>
             </attr>
         </edge>
         <edge from="n5" to="n5">
@@ -257,17 +257,17 @@
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
-                <string>flag:green</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
                 <string>flag:connected</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
                 <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>flag:green</string>
             </attr>
         </edge>
         <edge from="n6" to="n2">
@@ -285,14 +285,14 @@
                 <string>type:track</string>
             </attr>
         </edge>
-        <edge from="n7" to="n2">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
         <edge from="n7" to="n7">
             <attr name="label">
                 <string>type:track</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n2">
+            <attr name="label">
+                <string>to</string>
             </attr>
         </edge>
         <edge from="n17" to="n17">

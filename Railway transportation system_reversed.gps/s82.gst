@@ -1,196 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="forbidden10">
-        <attr name="enabled">
-            <string>false</string>
-        </attr>
-        <attr name="actionRole">
-            <string>forbidden</string>
-        </attr>
+    <graph role="graph" edgeids="false" edgemode="directed" id="s82">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n4">
-            <attr name="layout">
-                <string>82 17 71 36</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>265 8 71 54</string>
-            </attr>
-        </node>
-        <node id="n10">
-            <attr name="layout">
-                <string>103 562 28 18</string>
-            </attr>
-        </node>
-        <node id="n12">
-            <attr name="layout">
-                <string>453 340 28 18</string>
-            </attr>
-        </node>
         <node id="n6">
             <attr name="layout">
-                <string>92 414 51 18</string>
-            </attr>
-        </node>
-        <node id="n15">
-            <attr name="layout">
-                <string>416 8 102 54</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>103 488 28 18</string>
-            </attr>
-        </node>
-        <node id="n8">
-            <attr name="layout">
-                <string>453 192 28 18</string>
-            </attr>
-        </node>
-        <node id="n14">
-            <attr name="layout">
-                <string>453 266 28 18</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>453 118 28 18</string>
-            </attr>
-        </node>
-        <node id="n11">
-            <attr name="layout">
-                <string>102 340 30 18</string>
-            </attr>
-        </node>
-        <node id="n13">
-            <attr name="layout">
-                <string>102 266 30 18</string>
+                <string>385 426 28 18</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>102 192 30 18</string>
+                <string>780 424 28 18</string>
             </attr>
         </node>
-        <node id="n0">
+        <node id="n8">
             <attr name="layout">
-                <string>714 8 71 54</string>
+                <string>679 423 28 18</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>976 425 28 18</string>
             </attr>
         </node>
         <node id="n9">
             <attr name="layout">
-                <string>102 118 30 18</string>
+                <string>385 322 36 36</string>
             </attr>
         </node>
-        <node id="n16">
+        <node id="n12">
             <attr name="layout">
-                <string>210 104 36 18</string>
+                <string>875 424 28 18</string>
             </attr>
         </node>
-        <node id="n17">
+        <node id="n1">
             <attr name="layout">
-                <string>587 102 53 18</string>
+                <string>453 493 102 54</string>
             </attr>
         </node>
-        <edge from="n4" to="n16">
-            <attr name="label">
-                <string>current_speed</string>
+        <node id="n13">
+            <attr name="layout">
+                <string>557 310 71 54</string>
             </attr>
-        </edge>
-        <edge from="n4" to="n9">
-            <attr name="label">
-                <string>on</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>615 493 130 54</string>
             </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>flag:connected</string>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>475 424 28 18</string>
             </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>type:target_train</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>567 423 51 18</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n6">
-            <attr name="label">
-                <string>on</string>
+        </node>
+        <node id="n24">
+            <attr name="layout">
+                <string>477 224 30 18</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>flag:red</string>
+        </node>
+        <node id="n41">
+            <attr name="layout">
+                <string>341 188 30 18</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>type:traffic_light</string>
+        </node>
+        <node id="n75">
+            <attr name="layout">
+                <string>208 270 51 18</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>flag:connected</string>
+        </node>
+        <node id="n114">
+            <attr name="layout">
+                <string>103 337 71 54</string>
             </attr>
-        </edge>
-        <edge from="n10" to="n10">
-            <attr name="label">
-                <string>type:road</string>
+        </node>
+        <node id="n155">
+            <attr name="layout">
+                <string>310 459 30 18</string>
             </attr>
-        </edge>
-        <edge from="n12" to="n12">
-            <attr name="label">
-                <string>type:road</string>
+        </node>
+        <node id="n156">
+            <attr name="layout">
+                <string>142 155 30 18</string>
             </attr>
-        </edge>
-        <edge from="n12" to="n6">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n5">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
+        </node>
         <edge from="n6" to="n6">
             <attr name="label">
-                <string>type:crossing</string>
+                <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n15" to="n3">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n15" to="n15">
-            <attr name="label">
-                <string>type:car</string>
-            </attr>
-        </edge>
-        <edge from="n15" to="n17">
-            <attr name="label">
-                <string>is</string>
-            </attr>
-        </edge>
-        <edge from="n15" to="n15">
-            <attr name="label">
-                <string>flag:emergency_vehicle</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n10">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
+        <edge from="n7" to="n7">
             <attr name="label">
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n8" to="n14">
+        <edge from="n7" to="n8">
             <attr name="label">
                 <string>to</string>
             </attr>
@@ -200,94 +109,189 @@
                 <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n14" to="n14">
-            <attr name="label">
-                <string>type:road</string>
-            </attr>
-        </edge>
-        <edge from="n14" to="n12">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>type:road</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n8">
+        <edge from="n8" to="n0">
             <attr name="label">
                 <string>to</string>
             </attr>
         </edge>
         <edge from="n11" to="n11">
             <attr name="label">
-                <string>type:track</string>
+                <string>type:road</string>
             </attr>
         </edge>
-        <edge from="n11" to="n6">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
-        <edge from="n13" to="n13">
-            <attr name="label">
-                <string>type:track</string>
-            </attr>
-        </edge>
-        <edge from="n13" to="n11">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n13">
-            <attr name="label">
-                <string>to</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>type:track</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n7">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>type:traffic_light</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>flag:connected</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>flag:green</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n7">
+        <edge from="n11" to="n12">
             <attr name="label">
                 <string>to</string>
             </attr>
         </edge>
         <edge from="n9" to="n9">
             <attr name="label">
+                <string>type:depth</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>let:at = int:6</string>
+            </attr>
+        </edge>
+        <edge from="n12" to="n12">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n12" to="n7">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:car</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>flag:emergency_vehicle</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>let:is = string:"moving"</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n11">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>flag:red</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n0">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>flag:unconnected</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:target_train</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>flag:unconnected</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>let:current_speed = string:"fast"</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n155">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>type:road</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n6">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:crossing</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n5">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n24">
+            <attr name="label">
                 <string>type:track</string>
             </attr>
         </edge>
-        <edge from="n16" to="n16">
+        <edge from="n24" to="n0">
             <attr name="label">
-                <string>string:"slow"</string>
+                <string>to</string>
             </attr>
         </edge>
-        <edge from="n17" to="n17">
+        <edge from="n41" to="n41">
             <attr name="label">
-                <string>string:"moving"</string>
+                <string>type:track</string>
+            </attr>
+        </edge>
+        <edge from="n41" to="n24">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n75" to="n75">
+            <attr name="label">
+                <string>type:junction</string>
+            </attr>
+        </edge>
+        <edge from="n75" to="n41">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n114" to="n114">
+            <attr name="label">
+                <string>type:traffic_light</string>
+            </attr>
+        </edge>
+        <edge from="n114" to="n114">
+            <attr name="label">
+                <string>flag:green</string>
+            </attr>
+        </edge>
+        <edge from="n114" to="n114">
+            <attr name="label">
+                <string>flag:unconnected</string>
+            </attr>
+        </edge>
+        <edge from="n114" to="n75">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n155" to="n155">
+            <attr name="label">
+                <string>type:track</string>
+            </attr>
+        </edge>
+        <edge from="n155" to="n75">
+            <attr name="label">
+                <string>to</string>
+            </attr>
+        </edge>
+        <edge from="n156" to="n156">
+            <attr name="label">
+                <string>type:track</string>
+            </attr>
+        </edge>
+        <edge from="n156" to="n75">
+            <attr name="label">
+                <string>to</string>
             </attr>
         </edge>
     </graph>
