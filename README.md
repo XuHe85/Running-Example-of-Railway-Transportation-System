@@ -90,9 +90,7 @@ After `road` nodes with `crossing` added to the graph by [Rules Add_Crossing](#r
 Following rules add moving `car`, stopped `car`, and car that with `emergency_vehicle` flag to the graph respectively.
 
 ![Rule Add_Car_Moving](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_moving.png "Rule Add_Car_Moving")
-
 ![Rule Add_Car_Stopped](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_stopped.png "Rule Add_Car_Stopped")
-
 ![Rule Add_Car_Moving_Emergency](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_car_moving_emergency.png "Rule Add_Car_Moving_Emergency")
 
 ### Rules Connection
@@ -100,7 +98,6 @@ Following rules add moving `car`, stopped `car`, and car that with `emergency_ve
 When `target_train` approaches the far end `traffic_light`, they will try to establish the connection. If they connected with each other, all of them will obtain a flag `connected`. If the connection failed, flag `unconnected` will be created.
 
 ![Rule connection_succeed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_succeed.png "Rule connection_succeed")
-
 ![Rule connection_failed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_failed.png "Rule connection_failed")
 
 When the connection succeed, the `target_train` will not only follow the instruction of the traffic light, but also reveive the early warning signal when there is an on coming incursion on the `crossing` node. In contrast to that, the absence of the connection will lead the `target_train` only follow the traffic light.
@@ -140,13 +137,61 @@ When the `target_train` arrives at the `crossing` with the `car` at the same tim
 If the `target_train` passes the `crossing` node and nothing happens(no collision), along with the deletion of both `crossing` and `traffic_light` nodes, the train will wipe its connection flag.
 
 ![Rule connection_reset_connected](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_reset_connected.png "Rule connection_reset_connected")
-
 ![Rule connection_reset_unconnected](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/connection_reset_unconnected.png "Rule connection_reset_unconnected")
 
 # Reversed Graph
 
 ## Initial Graph
 
-The initial graph of the reversed model depict a train crashed with a car on the `crossing` node.
+The start graph of the backward GTS depicts a collision of the `target_train` and the `car` happened on the `crossing`.
+According to the setting of original model, only the emergency vehicle will rush into the crossing.
+Therefore, the `car` owns the corresponding flag.
 
 ![Reversed Initial Graph](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/start_graph_reversed.png "Reversed Initial Graph")
+
+## Rules
+
+### Rule Crash_2_Connected and Crash_2_unconnected
+
+As in the start graph, both the `target_train` and the `car` are in crashed state. Either the rule `crash_2_connected` or `crash_2_unconnected` with the same highest priority will be applied first. The rule `crash_2_connected` will give both the `target_train` and the `traffic_light` a `connected` flag and an `emergency` flag. The rule crash_2_unconnected will give both the `target_train` and the `traffic_light` an `unconnected` flag.
+
+![crash_connected_reversed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash_connected_reversed.png "crash_connected_reversed")
+![crash_unconnected_reversed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash_unconnected_reversed.png "crash_unconnected_reversed")
+
+### Rule Crash_2_Fast, Crash_2_Slow and Crash_2_Slow
+
+Then, three rules with third priority are ready to release the nodes from the crash or accident situation. The rule `crash_2_fast` will wipe the flag `accident` from the node `crossing` and the flag `crash` from both nodes `car` and `target_train`. Afterwards, it will set the `car` from stopped to moving, and the `target_train` from stop to fast.
+
+Rule `crash_2_slow` and `crash_2_stop` have the similar function. The only difference is that they will set the speed of the train to slow or stop. 
+
+![crash_fast_reversed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash_fast_reversed.png "crash_fast_reversed")
+![crash_slow_reversed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash_slow_reversed.png "crash_slow_reversed")
+![crash_stop_reversed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/crash_stop_reversed.png "crash_stop_reversed")
+
+### Rule Emergency_Acc_Stop_to_Slow
+
+After releasing from the dilemma of the crash, the car and the target_train can move backwards. Here we use the rule `emergency_acc_stop_to_slow` to elaborate the mechanism of backward moving of these nodes.
+
+The first part of the rule adds new `track(s)` to the last `railway node(s)`. The `target_train` node will point to the newly created `track` and delete the old edge. Additionally, the emergency flag will also be deleted, and the speed of the train will be switched from stop to slow.
+
+![emergency_acc_s2s_reversed_1](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_1.png "emergency_acc_s2s_reversed_1")
+
+The second part of the rule will move the stopped car (if it existed) from current road to the former one, and switch its condition from stopped to moving.
+
+![emergency_acc_s2s_reversed_2](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_2.png "emergency_acc_s2s_reversed_2")
+
+The third part of the rule modifies the car node that is equipped with the emergency_vehicle label. It moves from the crossing to the road.
+
+![emergency_acc_s2s_reversed_3](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_3.png "emergency_acc_s2s_reversed_3")
+
+The fourth part of the rule will move the car ahead of the crossing, if it existed, to the crossing node.
+
+![emergency_acc_s2s_reversed_4](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_4.png "emergency_acc_s2s_reversed_4")
+
+The fifth part of the rule will move all cars (if it existed) on the road node to the former node.
+
+![emergency_acc_s2s_reversed_5](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_5.png "emergency_acc_s2s_reversed_5")
+
+The last part of the rule delete the car node from the graph, if there doesn’t exist any node point to the current road node.
+
+![emergency_acc_s2s_reversed_6](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_6.png "emergency_acc_s2s_reversed_6")
