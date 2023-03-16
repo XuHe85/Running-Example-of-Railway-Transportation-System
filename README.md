@@ -195,3 +195,9 @@ The fifth part of the rule will move all `cars` (if it existed) on the `road` no
 The last part of the rule delete the `car` node from the graph, if there doesn’t exist any node point to the current `road` node.
 
 ![emergency_acc_s2s_reversed_6](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_6.png "emergency_acc_s2s_reversed_6")
+
+### Rule Add_Traffic_Light Reversed
+
+After several `railway` nodes are added, the far end `traffic_light` nodes will be attached to the `railway` node. The newly added `traffic_light` will have a flag of green and a connected of unconnected flag that matches the flag on the crossing `traffic_light`.
+
+![add_traffic_light_reversed](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/add_traffic_light_reversed.png "add_traffic_light_reversed")
