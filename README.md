@@ -176,22 +176,22 @@ The first part of the rule adds new `track(s)` to the last `railway node(s)`. Th
 
 ![emergency_acc_s2s_reversed_1](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_1.png "emergency_acc_s2s_reversed_1")
 
-The second part of the rule will move the stopped car (if it existed) from current road to the former one, and switch its condition from stopped to moving.
+The second part of the rule will move the stopped `car` (if it existed) from current `road` to the former one, and switch its condition from stopped to moving.
 
 ![emergency_acc_s2s_reversed_2](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_2.png "emergency_acc_s2s_reversed_2")
 
-The third part of the rule modifies the car node that is equipped with the emergency_vehicle label. It moves from the crossing to the road.
+The third part of the rule modifies the `car` node that is equipped with the `emergency_vehicle` label. It moves from the crossing to the road.
 
 ![emergency_acc_s2s_reversed_3](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_3.png "emergency_acc_s2s_reversed_3")
 
-The fourth part of the rule will move the car ahead of the crossing, if it existed, to the crossing node.
+The fourth part of the rule will move the `car` ahead of the crossing, if it existed, to the `crossing` node.
 
 ![emergency_acc_s2s_reversed_4](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_4.png "emergency_acc_s2s_reversed_4")
 
-The fifth part of the rule will move all cars (if it existed) on the road node to the former node.
+The fifth part of the rule will move all `cars` (if it existed) on the `road` node to the former node.
 
 ![emergency_acc_s2s_reversed_5](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_5.png "emergency_acc_s2s_reversed_5")
 
-The last part of the rule delete the car node from the graph, if there doesn’t exist any node point to the current road node.
+The last part of the rule delete the `car` node from the graph, if there doesn’t exist any node point to the current `road` node.
 
 ![emergency_acc_s2s_reversed_6](https://github.com/XuHe85/Running-Example-of-Railway-Transportation-System/blob/main/Images/emergency_acc_s2s_reversed_6.png "emergency_acc_s2s_reversed_6")
